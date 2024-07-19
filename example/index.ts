@@ -1,5 +1,5 @@
-import { QRCodeStrategy } from "https://se-la-via.github.io/HereWalletSDK/src/core/qrcode-strategy";
-import { HereWallet } from "https://se-la-via.github.io/HereWalletSDK/src/core";
+import { QRCodeStrategy } from "https://se-la-via.github.io/HereWalletSDK/src/qrcode-strategy/core";
+import { HereWallet } from "https://se-la-via.github.io/HereWalletSDK/src/qrcode-strategy/core";
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
